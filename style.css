@@ -10,8 +10,20 @@ h1{
 display: flex;
 justify-content: center;
 }
-
-
+form{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 1.2rem;
+    color: aqua;
+    background-color: rgb(37, 35, 35);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
 @media (max-width: 750px){
     #img{
         width: 80vw;
